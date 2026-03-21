@@ -1,4 +1,5 @@
 import { Share2, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+import bellaImage from '../bella.png';
 
 export default function Hero() {
   return (
@@ -36,12 +37,17 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative">
-          <div className="aspect-[3/4] bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg overflow-hidden">
-            <div className="w-full h-full flex items-center justify-center text-gray-400">
-              <svg className="w-24 h-24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
+        <div className="relative mx-auto w-full max-w-md">
+          <div className="absolute -inset-6 -z-10 rounded-[2rem] bg-[radial-gradient(circle_at_35%_25%,#d9e0d2_0%,#f2ede3_45%,transparent_75%)] blur-2xl opacity-80" />
+
+          <div className="aspect-[3/4] p-2 bg-gradient-to-br from-[#e8e2d8] via-[#f3eee5] to-[#dfd8cc] rounded-[2rem] shadow-[0_20px_40px_rgba(90,80,60,0.18)]">
+            <div className="relative h-full w-full overflow-hidden rounded-[1.5rem] bg-[#f5f2ea]">
+              <img
+                src={bellaImage}
+                alt="Isabella Karina Lira Nogueira"
+                className="w-full h-full object-cover object-top"
+              />
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[#f5f2ea] via-[#f5f2ea]/60 to-transparent" />
             </div>
           </div>
         </div>

@@ -27,22 +27,22 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-gray-600">
                 <Mail className="w-5 h-5" />
-                <span>contato@isabellakarina.com</span>
+                <span>contato@isabellakarina.com.br</span>
               </li>
               <li className="flex items-center gap-3 text-gray-600">
                 <Phone className="w-5 h-5" />
-                <span>+55 (11) 99999-9999</span>
+                <span>+55 (83) 99823-1251</span>
               </li>
               <li className="flex items-center gap-3 text-gray-600">
                 <MapPin className="w-5 h-5" />
-                <span>São Paulo, Brasil</span>
+                <span>João Pessoa, Brasil</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-300 pt-8 text-center text-gray-600 text-sm">
-          <p>&copy; 2024 Isabella Karina. Todos os direitos reservados.</p>
+          <p>&copy; 2026 Isabella Karina. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
