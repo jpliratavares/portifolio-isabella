@@ -2,16 +2,126 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Development</title>
-    <meta property="og:image" content="https://bolt.new/static/og_default.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
-    <script type="module" crossorigin src="/portifolio-isabella/assets/index-BJjFhzyK.js"></script>
-    <link rel="stylesheet" crossorigin href="/portifolio-isabella/assets/index-Bt1B7A3Y.css">
+    <title>Isabella Karina</title>
+    <meta name="description" content="Portfólio de Isabella Karina com foco em ecodesign e webdesign." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div id="root"></div>
+    <header class="site-header">
+      <div class="container header-row">
+        <div>
+          <h1 class="brand-title">Isabella Karina</h1>
+          <p class="brand-subtitle">Ecodesign &amp; Webdesign</p>
+        </div>
+
+        <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
+          <a href="#inicio">Início</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#portfolio">Portfólio</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <button class="btn budget-btn">Orçamento</button>
+
+        <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div>
+              <h2 class="hero-name">Isabella Karina</h2>
+              <h3 class="hero-lastname">Lira Nogueira</h3>
+            </div>
+
+            <p class="hero-description">Criando experiências memoráveis com design sustentável.</p>
+
+            <a href="#portfolio" class="btn primary-btn">Ver Portfólio <span aria-hidden="true">&rarr;</span></a>
+
+            <div class="social-links" aria-label="Redes sociais">
+              <a href="#" aria-label="Behance">Behance</a>
+              <a href="#" aria-label="Instagram">Instagram</a>
+              <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            </div>
+          </div>
+
+          <div class="hero-image-wrap">
+            <div class="hero-glow" aria-hidden="true"></div>
+            <div class="hero-frame">
+              <div class="hero-image-shell">
+                <img src="./src/bella.png" alt="Isabella Karina Lira Nogueira" class="hero-image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="about-section">
+        <div class="container about-copy">
+          <h2>Sobre</h2>
+          <p>
+            Designer especializada em soluções sustentáveis e experiências digitais memoráveis.
+          </p>
+        </div>
+      </section>
+
+      <section id="portfolio" class="portfolio-section">
+        <div class="container">
+          <h2 class="section-title">Projetos Recentes</h2>
+          <div id="projects-grid" class="projects-grid" aria-live="polite"></div>
+          <div id="projects-empty" class="projects-empty" hidden>Nenhum projeto disponível no momento.</div>
+          <div class="portfolio-cta">
+            <button class="text-btn">Ver Portfólio <span aria-hidden="true">&rarr;</span></button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Isabella Karina</h3>
+          <p>Designer especializada em soluções sustentáveis e experiências digitais memoráveis.</p>
+        </div>
+
+        <div>
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contato</h4>
+          <ul>
+            <li>contato@isabellakarina.com.br</li>
+            <li>+55 (83) 99823-1251</li>
+            <li>João Pessoa, Brasil</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>&copy; 2026 Isabella Karina. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="./script.js"></script>
   </body>
 </html>
