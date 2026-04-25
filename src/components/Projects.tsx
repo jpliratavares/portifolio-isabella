@@ -3,21 +3,21 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
-    title: 'EcoBranding',
-    subtitle: 'Refloresta',
-    description: 'Identidade visual completa para empresa de reflorestamento sustentável',
+    title: 'Identidade Visual',
+    subtitle: 'Delta Funnel',
+    description: 'Criacao de logomarca e identidade visual alinhadas ao posicionamento estrategico da empresa de tecnologia e solucoes em IA.',
     color: 'from-[#e8e4df] to-[#d8d4cf]'
   },
   {
-    title: 'Web Design',
-    subtitle: 'GreenTech',
-    description: 'Website responsivo para startup de tecnologia verde',
+    title: 'Design de Interface',
+    subtitle: 'Aplicacao Movel Academica',
+    description: 'Desenvolvimento de interfaces no Figma para projeto universitario, com estrutura visual funcional e coerente para uso mobile.',
     color: 'from-[#8a9a7e] to-[#7a8a6e]'
   },
   {
-    title: 'Identidade Visual',
-    subtitle: 'ArteSustentável',
-    description: 'Branding para galeria de arte com materiais reciclados',
+    title: 'Branding Freelance',
+    subtitle: 'Projetos de Identidade Visual',
+    description: 'Desenvolvimento de conceitos visuais, sistemas de marca e materiais de comunicacao para diferentes clientes.',
     color: 'from-[#a8b5a0] to-[#98a590]'
   }
 ];
