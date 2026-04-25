@@ -14,9 +14,14 @@ export default function Header() {
           <a href="#contato" className="text-gray-700 hover:text-gray-900 transition-colors">Contato</a>
         </nav>
 
-        <button className="hidden md:block bg-[#d4cec4] hover:bg-[#c4beb4] text-gray-800 px-6 py-3 rounded transition-colors">
+        <a
+          href="https://wa.me/558398231251?text=Ol%C3%A1%2C%20Isabella!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20um%20projeto."
+          target="_blank"
+          rel="noreferrer"
+          className="hidden md:block bg-[#d4cec4] hover:bg-[#c4beb4] text-gray-800 px-6 py-3 rounded transition-colors"
+        >
           Orçamento
-        </button>
+        </a>
 
         <button className="md:hidden text-gray-800">
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
